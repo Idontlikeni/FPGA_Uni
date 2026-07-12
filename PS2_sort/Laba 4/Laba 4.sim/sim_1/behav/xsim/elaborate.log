@@ -1,0 +1,31 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx_Windows_Unpacked_2022_2/Xilinx_Windows_Unpacked_2022_2/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'dir' [D:/4th_semestr/fourth_semestr/Schematics/Laba 4/Laba 4/Laba 4.srcs/sources_1/new/filtercon.v:25]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'out' [D:/4th_semestr/fourth_semestr/Schematics/Laba 4/Laba 4/Laba 4.srcs/sources_1/new/filtercon.v:27]
+WARNING: [VRFC 10-3091] actual bit length 7 differs from formal bit length 8 for port 'SEG' [D:/4th_semestr/fourth_semestr/Schematics/Laba 4/Laba 4/Laba 4.srcs/sources_1/new/main.v:118]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/4th_semestr/fourth_semestr/Schematics/Laba 4/Laba 4/Laba 4.srcs/sources_1/new/PS2.v" Line 1. Module PS2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/4th_semestr/fourth_semestr/Schematics/Laba 4/Laba 4/Laba 4.srcs/sources_1/new/PS2.v" Line 1. Module PS2 doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.dtrigger
+Compiling module xil_defaultlib.synchro
+Compiling module xil_defaultlib.count
+Compiling module xil_defaultlib.filtercon(mode=128)
+Compiling module xil_defaultlib.count(mod=512)
+Compiling module xil_defaultlib.clk_divider(div=1024)
+Compiling module xil_defaultlib.PS2
+Compiling module xil_defaultlib.PS2_DC
+Compiling module xil_defaultlib.PS2_Manager
+Compiling module xil_defaultlib.count(mod=8)
+Compiling module xil_defaultlib.SevenSegmentLED
+Compiling module xil_defaultlib.fsm(max_size=4,bit_size=4)
+Compiling module xil_defaultlib.main
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav

@@ -1,0 +1,5 @@
+Time resolution is 1 ps
+ i = 1, j = 0
+ i = 1, j = 2
+ i = 2, j = 0
+$finish called at time : 33290 ns : File "D:/4th_semestr/fourth_semestr/Schematics/Laba 4/Laba 4/Laba 4.srcs/sim_1/new/test.v" Line 67
